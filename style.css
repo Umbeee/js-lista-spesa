@@ -21,11 +21,3 @@ label{
 .bg{
     background-color: rgb(33,37,41);
 }
-
-li:hover{
-    cursor:pointer;
-}
-.checked{
-    text-decoration: line-through;
-    display: none;
-}
