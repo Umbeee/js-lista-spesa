@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#lista-spesa{
+    list-style-type:decimal;
+}
+.container{
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    display: block;
+}
+.bg{
+    background-color: rgb(33,37,41);
+}
+
+li:hover{
+    cursor:pointer;
+}
+.checked{
+    text-decoration: line-through;
+    display: none;
+}
